@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
+        base: '/TN-Bus_Tracking_App/', // ✅ ADD THIS LINE
       server: {
         port: 3000,
         host: '0.0.0.0',
