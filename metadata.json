@@ -1,0 +1,9 @@
+{
+  "name": "Copy of TNPT-24/7",
+  "description": "A comprehensive local government bus tracking application for Tamil Nadu, featuring live GPS-style tracking, route searching, and district-wise bus stand exploration.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
